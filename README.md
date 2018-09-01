@@ -1,4 +1,4 @@
-# react-fake-hotels
+# React fake hotels
 
 How to start the Application
 
