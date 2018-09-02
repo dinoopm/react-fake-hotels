@@ -8,9 +8,7 @@ export default class Hotel extends PureComponent {
 
   dateFormatter = (date)=>{
     const dateObject = new Date(date);
-    return `${dateObject.getDay().toString()}.
-             ${dateObject.getMonth().toString()}. 
-             ${dateObject.getFullYear().toString()}`;  
+    return `${dateObject.getDay().toString()}.${dateObject.getMonth().toString()}.${dateObject.getFullYear().toString()}`; 
   };
 
 
