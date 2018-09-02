@@ -11,7 +11,7 @@ const get = (url, dispatch) =>
     });
 
 export const getHotels = () => dispatch =>
-  get("http://fake-hotel-api.herokuapp.com/api/hotels", dispatch).then(
+  get("http://fake-hotel-api.herokuapp.com/api/hotels?count=5", dispatch).then(
     response => {
       response && dispatch({ type: "GET_HOTELS", payload: response });
     }
