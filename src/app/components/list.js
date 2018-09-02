@@ -10,7 +10,7 @@ export default class list extends PureComponent {
     ) : (
       <div>
         {hotels.map((hotel, index) => (
-          <Hotel hotel={hotel} key={index} />
+          <Hotel hotel={hotel} key={hotel.id} />
         ))}
       </div>
     );
